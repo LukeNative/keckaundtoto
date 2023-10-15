@@ -16,6 +16,10 @@ body {
 
 .description {
   width: 100%;
+
+  & p {
+    text-align: justify;
+  }
 }
 
 .place {
@@ -23,6 +27,19 @@ body {
   flex-direction: column;
   gap: 2em;
   align-items: center;
+}
+
+.accordion {
+  width: 100%;
+}
+
+.accordion-button {
+  font-weight: bold;
+}
+
+.scroll-target {
+  position: absolute;
+  margin-top: -1.5em;
 }
 
 .map {
