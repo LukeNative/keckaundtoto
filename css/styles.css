@@ -1,17 +1,22 @@
 
+@font-face {
+  font-family: Nunito;
+  src: url("../src/fonts/Nunito/Nunito-VariableFont_wght.ttf");
+  font-weight: normal;
+}
+
 body {
   width: 90%;
-  margin-left: 5%;
+  margin: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3em;
+  font-family: Nunito;
 }
 
 #title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 70%;
 }
 
 .description {
@@ -31,6 +36,12 @@ body {
 
 .accordion {
   width: 100%;
+}
+
+.accordion-header {
+  & a {
+    text-decoration: none;
+  }
 }
 
 .accordion-button {
