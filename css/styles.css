@@ -4,14 +4,24 @@
   font-weight: normal;
 }
 
+:root {
+  --primary-color: #5a0912;
+  --bs-primary-text-emphasis: var(--primary-color);
+  --bs-primary-bg-subtle: #ffe5e8;
+}
+
 body {
   width: 90%;
   margin: 5%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 2em;
   font-family: Nunito, sans-serif;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 section {
@@ -22,12 +32,16 @@ section {
 
 #title {
   width: 90%;
+  margin: 0 5%;
 }
 
 h1 {
   font-size: 1.6em;
-  margin: 0;
   font-weight: normal;
+}
+
+a {
+  color: var(--primary-color);
 }
 
 .description {
@@ -48,6 +62,27 @@ h1 {
   gap: 1em;
 }
 
+.accordion.single-item .accordion-item {
+  border: none;
+}
+
+.accordion.single-item .accordion-header {
+  padding: 0;
+  background: none;
+  font-size: 1.6em;
+  font-weight: normal;
+  width: fit-content;
+  margin: 0;
+}
+
+.accordion.single-item .accordion-header::after {
+  margin-left: 0.8em;
+}
+
+.accordion.single-item .accordion-body {
+  border-left: solid 10px var(--primary-color);
+}
+
 .accordion, .unterkünfte {
   width: 100%;
 }
@@ -65,29 +100,9 @@ h1 {
   margin-top: -1em;
 }
 
-#procedure {
-  width: 100%;
-}
-
-#procedure .accordion-item {
-  border: none;
-}
-
-#procedure .accordion-button {
-  padding: 0;
-  background: none;
-  font-size: 1.6em;
-  font-weight: normal;
-}
-
 .map {
-  height: auto;
-  width: 400px;
-}
-
-#overview-map {
   width: 100%;
-  height: 40em;
+  height: 30em;
 }
 
 .google-form {
@@ -100,5 +115,5 @@ img {
 }
 
 #signature {
-  width: 10em;
+  width: 12em;
 }
