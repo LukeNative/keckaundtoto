@@ -113,6 +113,14 @@ a {
   color: var(--primary-color);
 }
 
+#accordionForms .accordion-body {
+  padding: 0.2rem 0;
+}
+
+#accordionForms .collapse-target > div {
+  margin: 1rem;
+}
+
 .scroll-target {
   position: absolute;
   margin-top: -2rem;
@@ -124,7 +132,7 @@ a {
 }
 
 .google-form {
-  margin: 0 -5vw;
+  width: 100%;
 }
 
 img {
@@ -137,13 +145,13 @@ img {
 }
 
 #formRegistration {
-  height: 72rem;
+  height: 80rem;
 }
 
 #formAccommodation {
-  height: 75rem;
+  height: 84rem;
 }
 
 #formTraveling {
-  height: 111rem;
+  height: 126rem;
 }
