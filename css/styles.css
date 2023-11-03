@@ -10,7 +10,7 @@
   --bs-primary-bg-subtle: #ffe5e8;
 }
 
-body {
+#content {
   width: 90vw;
   margin: 5vw;
   display: flex;
@@ -145,7 +145,7 @@ img {
 }
 
 #formRegistration {
-  height: 80rem;
+  height: 82rem;
 }
 
 #formAccommodation {
