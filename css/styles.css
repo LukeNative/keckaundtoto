@@ -113,6 +113,10 @@ a {
   color: var(--primary-color);
 }
 
+#accordionForms .accordion-body {
+  padding: 0.2rem 0;
+}
+
 .scroll-target {
   position: absolute;
   margin-top: -2rem;
@@ -124,7 +128,7 @@ a {
 }
 
 .google-form {
-  margin: 0 -5vw;
+  width: 100%;
 }
 
 img {
