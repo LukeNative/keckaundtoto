@@ -135,10 +135,6 @@ a {
   height: 30rem;
 }
 
-.google-form {
-  width: 100%;
-}
-
 img {
   width: 100%;
 }
@@ -150,4 +146,9 @@ img {
 
 #playlist {
   height: 30rem;
+}
+
+#formQuestions {
+  border: 1px solid #888888;
+  border-radius: 10px;
 }
