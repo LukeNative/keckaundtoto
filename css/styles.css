@@ -53,12 +53,9 @@ a {
   width: 100%;
 }
 
-.description p {
-  text-align: justify;
-}
-
 .text {
   margin-bottom: -1rem;
+  text-align: justify;
 }
 
 .description h3 {
