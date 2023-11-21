@@ -60,7 +60,7 @@ a {
   text-align: justify;
 }
 
-#introduction {
+#introduction .text {
   text-align: left;
 }
 
@@ -144,7 +144,7 @@ img {
 
 #signature {
   width: 14rem;
-  margin-bottom: 1rem;
+  padding: 1rem 0 1.5rem;
 }
 
 #playlist {
