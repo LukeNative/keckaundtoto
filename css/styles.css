@@ -60,6 +60,10 @@ a {
   text-align: justify;
 }
 
+#introduction {
+  margin-bottom: 1rem;
+}
+
 #introduction .text {
   text-align: left;
 }
