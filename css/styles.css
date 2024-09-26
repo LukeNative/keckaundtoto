@@ -146,6 +146,10 @@ img {
   width: 100%;
 }
 
+hr {
+  margin: 2.5rem 2rem 2rem 2rem;
+}
+
 #signature {
   width: 14rem;
   padding: 1rem 0 1.5rem;
@@ -158,4 +162,9 @@ img {
 #formQuestions {
   border: 1px solid #888888;
   border-radius: 10px;
+}
+
+#google-upload {
+  display: inline-block;
+  width: 3rem;
 }
